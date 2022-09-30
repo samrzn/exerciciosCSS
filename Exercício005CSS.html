@@ -1,0 +1,56 @@
+<!-- Exercício 5
+Usando conceitos de posicionamento do CSS, crie uma página HTML com seis divisões utilizando a tag <div>. 
+    Duas dessas divisões deverão ter o atributo class com o valor “linha” e deverão acomodar outras divisões, 
+    como um container. As outras quatro divisões precisam ter a seguinte estrutura no documento:
+        Divisão 1 
+        *Título: Parte 1.
+        *Alinhamento: Esquerda cima.
+        *Cor de fundo: Azul.
+            Divisão 2
+            *Título: Parte 2.
+            *Alinhamento: Direita cima.
+            *Cor de fundo: Vermelho.
+                Divisão 3
+                *Título: Parte 3.
+                *Alinhamento: Esquerda baixo.
+                *Cor de fundo: Verde.                                            
+                     Divisão 4
+                     *Título: Parte 4.
+                     *Alinhamento: Direita baixo.
+                     *Cor de fundo: Amarelo.
+    Para essas quatro divisões aplique uma família de fonte Arial e use um atributo class com o valor 
+    “divisao”. Como resultado, o documento será dividido em quatro partes iguais. 
+Coloque o código CSS em um arquivo externo. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício CSS 5 - Moodle</title>
+    <link rel="stylesheet" href="./CSS/estilo-exercício005.css">
+</head>
+
+<body>
+    <div class="linha">
+        <div class="divisao" id="pt1">
+            <h1 id="p1">Parte 1</h1>
+        </div>
+        <div class="divisao" id="pt2">
+            <h1 id="p2">Parte 2</h1>
+        </div>
+    </div>
+
+    <div class="linha">
+        <div class="divisao" id="pt3">
+            <h1 id="p3">Parte 3</h1>
+        </div>
+        <div class="divisao" id="pt4">
+            <h1 id="p4">Parte 4</h1>
+        </div>
+    </div>
+</body>
+
+</html>
